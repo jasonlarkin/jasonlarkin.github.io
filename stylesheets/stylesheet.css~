@@ -302,7 +302,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 10px;
 }
 
 #project_title {
