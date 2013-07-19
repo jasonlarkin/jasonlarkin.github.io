@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
 
-          <h1 id="project_title">jasonlarkin.github.io</h1>
+          <h1 id="project_title"><a href="http://jasonlarkin.github.io/">jasonlarkin.github.io</a></h1>
           <h2 id="project_tagline"></h2>
 
         </header>
@@ -30,44 +30,25 @@
         <h3>Jason Larkin's MS Projects</h3>
 
 <p>
-<table height='600' width='600'>
- <tr>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig1.png" height="50%" width="100%">
-   </td>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig4.png" height="50%" width="100%">
-   </td>
- </tr>
-</table>
+<a href="projects-ms-fractal.html">Time-Evolution of a Fractal Distribution: Particle 
+Concentrations in Free-Surface Turbulence</a>
 </p>
 
 <p>
-<table height='600' width='600'>
- <tr>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig3.png" height="50%" width="100%">
-   </td>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig5.png" height="50%" width="100%">
-   </td>
- </tr>
-</table>
+<a href="projects-ms-stats.html">Power-law distributions of particle concentration in free-surface flows</a>
 </p>
 
 <p>
-<table height='600' width='600'>
- <tr>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig7.png" height="50%" width="100%">
-   </td>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig8.png" height="50%" width="100%">
-   </td>
- </tr>
-</table>
+<a href="projects-ms-decorr.html">Decorrelating a Compressible Turbulent Flow: an Experiment</a>
 </p>
 
+These projects were carried out under the advisement of 
+<a href="http://www.physicsandastronomy.pitt.edu/people/walter_i_goldburg">Walter Goldburg</a> at the 
+<a href="http://www.phyast.pitt.edu/~softmatt/">University of Pittsburgh Department of Physics.</a>
+
+<p>
+Here is a cool movie for those who are passing through quickly...
+</p>
 <p>
 <object classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" width="480" height="360" codebase="http://www.microsoft.com/Windows/MediaPlayer/">
 <param name="Filename" value="Movie.wmv">
@@ -79,16 +60,13 @@
 <param name="InvokeURLs" value="false">
 <embed src="Movie.wmv" type="application/x-mplayer2" autostart="1" enabled="1" showstatusbar="1" showdisplay="1" showcontrols="1" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/" CODEBASE="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,0,0,0" width="480" height="360"></embed>
 </object>
-</p>
 
+And, thanks to the great analysis of S. Stefanus, the results from our experimental 
+data made the cover of Journal of Fluids October 2011:
+</p>
 <p>
-<table height='600' width='600'>
- <tr>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/jap_cover.png" height="50%" width="100%">
-   </td>
- </tr>
-</table>
+<img src="https://raw.github.com/jasonlarkin/pitt-doc/master/jap_cover.png"
+style="width: 200px; height: 300px;" alt="the image" />
 </p>
 
       </section>
