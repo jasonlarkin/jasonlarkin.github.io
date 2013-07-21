@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
 
-          <h1 id="project_title"><a href="http://jasonlarkin.github.io/">jasonlarkin.github.io</a></h1>
+          <h1 id="project_title"><a href="index.html">jasonlarkin.github.io</a></h1>
           <h2 id="project_tagline"></h2>
 
         </header>
@@ -27,28 +27,85 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>Jason Larkin's PhD Projects</h3>
+        <h3><a href="projects-phd.html">Jason Larkin's PhD Projects</a></h3>
+
+<hr>
+<a href="http://ntpl.me.cmu.edu/pubs/larkin_jap13_alloy.pdf">Predicting Alloy Vibrational Mode Properties using Lattice Dynamics Calculations,
+Molecular Dynamics Simulations, and the Virtual Crystal Approximation</a>
+</h4>
 
 <p>
-J.M. Larkin, A.J.H. McGaughey, <a href="http://ntpl.me.cmu.edu/pubs/larkin_jap13_alloy.pdf">“Predicting Alloy Vibrational Mode Properties using Lattice Dynamics Calculations,
-Molecular Dynamics Simulations, and the Virtual Crystal Approximation”,</a> <a href="http://jap.aip.org/resource/1/japiau/v114/i2/p023507_s1">Journal of Applied Physics 114 (2013) 
-023507.</a>
+In this numerical study, we investigated the the virtual crystal (VC) approximation for predicting 
+thermal conductivity of 
+<a href="https://en.wikipedia.org/wiki/Alloy">alloys</a> by examining a model for 
+<a href="https://en.wikipedia.org/wiki/Silicon">silicon<a/>/
+<a href="http://en.wikipedia.org/wiki/Germanium">germanium (SiGe) 
+alloys. 
+Due to their potentially low thermal conductivities, disordered materials (e.g., alloys,
+<a href="http://en.wikipedia.org/wiki/Amorphous_solid">amorphous solids</a>, 
+<a href="http://en.wikipedia.org/wiki/Aerogel">aerogels</a>) are used in applications ranging from <a href="https://en.wikipedia.org/wiki/Thermoelectric_effect">thermoelectric energy
+conversion</a> to 
+<a href="http://en.wikipedia.org/wiki/Thermal_insulation">thermally insulating barriers</a>. Alloys are a subgroup of disordered materials where the atomic positions follow a lattice structure but the constituent
+species are spatially random.
+</p>
+
+
+<p>
+<img src="vc_fig1.png" 
+style="width: 500px; height: 300px;" alt="the image" />
+</p>
+
+To perform the numerical study, the
+perfect Si 
+<a href="http://en.wikipedia.org/wiki/Crystal">crystal</a> is alloyed with a heavier mass species (Ge), creating 
+an explicitly disordered supercell (Figure (a)). Under the VC approximation, the explicitly 
+disordered supercell is replaced by a perfect crystal based on a 
+<a href="http://en.wikipedia.org/wiki/Crystal_structure#Unit_cell">unit cell</a> with one averaged mass (Figure (b)). 
+
+<p>
+We study alloy disordered supercells with a range of concentrations from Si-rich (blue atoms):
+
+<p>
+<img src="si0.05_4096.png" 
+style="width: 200px; height: 200px;" alt="the image" />
+<img src="si0.05_64000.png" 
+style="width: 400px; height: 400px;" alt="the image" />
+</p>
+
+up to equal concentrations of Si and Ge (green atoms):
+
+<p>
+<img src="si0.5_4096.png" 
+style="width: 200px; height: 200px;" alt="the image" />
+<img src="si0.5_64000.png" 
+style="width: 400px; height: 400px;" alt="the image" />
+</p>
+
+for structures with 10<sub>3</sub> (left Figures above) to 10<sup>6</sup> atoms (right Figures above). 
+These structure sizes allow us to perform the thermal conductivity analysis using 
+<a href="http://en.wikipedia.org/wiki/Lattice_model_(physics)">lattice dynamics (LD)</a> 
+calculations and 
+<a href="http://en.wikipedia.org/wiki/Molecular_dynamics">molecular dynamics (MD)</a> 
+simulations, repsectively. 
 </p>
 
 <p>
-<table height='600' width='600'>
- <tr>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/disorder/master/pcbm/c60.png" height="50%" width="100%">
-   </td>
-   <td>
-     <img src="https://raw.github.com/jasonlarkin/disorder/master/pcbm/pcbm.png" height="50%" width="100%">
-   </td>
- </tr>
-</table>
+<img src="vc_fig9.png" 
+style="width: 420px; height: 420px;" alt="the image" />
 </p>
 
-
+<p>
+The above Figure shows thermal conductivity predictions for Si and SiGe alloys at a temperature of 300 K
+using the VC approximation (VC-ALD) and the  
+<a href="http://en.wikipedia.org/wiki/Top-down_and_bottom-up_design">top-down</a> 
+<a href="http://en.wikipedia.org/wiki/Green%E2%80%93Kubo_relations">Green-Kubo method</a> (GK). 
+Good agreement between VC-ALD and GK is seen for SiGe, in part because the thermal conductivities for all concentrations are 
+significantly higher than the 
+<a href="http://en.wikipedia.org/wiki/Phonon_scattering">high-scatter</a> thermal conductivity prediction k<sub>HS</sub>. 
+The results for the alloys studied suggest that modeling of thermal
+transport in ordered and disordered lattices can be separated into two broad groups: low-
+frequency dominated and full-spectrum materials.
+</p>
 
       </section>
     </div>

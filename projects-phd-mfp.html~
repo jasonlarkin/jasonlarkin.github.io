@@ -91,7 +91,7 @@ style="width: 420px; height: 420px;" alt="the image" />
 </p>
 
 Using MD simulations and Green-Kubo method for predicting thermal conductivity 
-(k<sub>GK</sub>), we compare with LD calculations that predict the total vibrational conductivity 
+(k<sub>GK</sub>), we compare with LD calculations to predict the total vibrational conductivity 
 (k<sub>vib</sub>) (above Figure) for varying supercell sizes L. The results show clearly that 
 the propagating contribution k<sub>pr</sub> is significant for a-Si but not a-SiO<sub>2</sub>. 
 These results help to explain recent 

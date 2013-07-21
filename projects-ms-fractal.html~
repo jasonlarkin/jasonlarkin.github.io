@@ -29,6 +29,11 @@
       <section id="main_content" class="inner">
         <h3><a href="projects-ms.html">Jason Larkin's MS Projects</a></h3>
 
+<h4>
+<a href="http://www.sciencedirect.com/science/article/pii/S0167278909003492">
+Time-Evolution of a Fractal Distribution: 
+Particle Concentrations in Free-Surface Turbulence</a></h4>
+
 
 <p>
 <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig1.png" 
@@ -228,7 +233,7 @@ lifetime of the
 to a steady state where the
 measured D<sub>q</sub>(t) approach a value that is slightly greater
 than 1, implying the formation of string-like structures. The
-correlation dimension D2(t) evolves exponentially as the
+correlation dimension D<sub>2</sub>(t) evolves exponentially as the
 steady state is approached. It is not possible, so far, to deduce 
 these observations from the 
 <a href="http://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">Navier-Stokes equations</a>
