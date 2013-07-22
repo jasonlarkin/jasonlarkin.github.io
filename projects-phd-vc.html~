@@ -35,20 +35,20 @@ Molecular Dynamics Simulations, and the Virtual Crystal Approximation</a>
 </h4>
 
 <p>
-In this numerical study, we investigated the the virtual crystal (VC) approximation for predicting 
-thermal conductivity of 
+We investigated numerically the virtual crystal (VC) approximation for predicting 
+the vibrational mode properties and thermal conductivity of 
 <a href="https://en.wikipedia.org/wiki/Alloy">alloys</a> by examining a model for 
 <a href="https://en.wikipedia.org/wiki/Silicon">silicon<a/>/
-<a href="http://en.wikipedia.org/wiki/Germanium">germanium (SiGe) 
+<a href="http://en.wikipedia.org/wiki/Germanium">germanium</a> (SiGe) 
 alloys. 
 Due to their potentially low thermal conductivities, disordered materials (e.g., alloys,
 <a href="http://en.wikipedia.org/wiki/Amorphous_solid">amorphous solids</a>, 
 <a href="http://en.wikipedia.org/wiki/Aerogel">aerogels</a>) are used in applications ranging from <a href="https://en.wikipedia.org/wiki/Thermoelectric_effect">thermoelectric energy
 conversion</a> to 
-<a href="http://en.wikipedia.org/wiki/Thermal_insulation">thermally insulating barriers</a>. Alloys are a subgroup of disordered materials where the atomic positions follow a lattice structure but the constituent
-species are spatially random.
+<a href="http://en.wikipedia.org/wiki/Thermal_insulation">thermally insulating barriers</a>. Alloys are a subgroup of disordered materials where the atomic positions follow a 
+<a href="http://en.wikipedia.org/wiki/Crystal_structure">lattice structure</a> 
+but the constituent species are spatially random.
 </p>
-
 
 <p>
 <img src="vc_fig1.png" 
@@ -60,7 +60,7 @@ perfect Si
 <a href="http://en.wikipedia.org/wiki/Crystal">crystal</a> is alloyed with a heavier mass species (Ge), creating 
 an explicitly disordered supercell (Figure (a)). Under the VC approximation, the explicitly 
 disordered supercell is replaced by a perfect crystal based on a 
-<a href="http://en.wikipedia.org/wiki/Crystal_structure#Unit_cell">unit cell</a> with one averaged mass (Figure (b). 
+<a href="http://en.wikipedia.org/wiki/Crystal_structure#Unit_cell">unit cell</a> with one averaged mass (Figure (b)). 
 
 <p>
 We study alloy disordered supercells with a range of concentrations from Si-rich (blue atoms):
@@ -81,12 +81,12 @@ style="width: 200px; height: 200px;" alt="the image" />
 style="width: 400px; height: 400px;" alt="the image" />
 </p>
 
-for structures with 10<sub>3</sub> (left Figures above) to 10<sup>6</sup> atoms (right Figures above). 
+for structures with 10<sup>3</sup> (left Figures above) to 10<sup>6</sup> atoms (right Figures above). 
 These structure sizes allow us to perform the thermal conductivity analysis using 
 <a href="http://en.wikipedia.org/wiki/Lattice_model_(physics)">lattice dynamics (LD)</a> 
 calculations and 
 <a href="http://en.wikipedia.org/wiki/Molecular_dynamics">molecular dynamics (MD)</a> 
-simulations, repsectively. 
+simulations. 
 </p>
 
 <p>

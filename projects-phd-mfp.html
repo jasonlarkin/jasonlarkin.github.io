@@ -44,7 +44,14 @@ by quantifying the contributions from propagating (
 non-propagating 
 <a href="http://en.wikipedia.org/wiki/Diffuson">(diffuson</a>, k<sub>diff</sub>) vibrational modes 
 to predict the total vibrational thermal conductivity, 
-k<sub>vib</sub> = k<sub>pr</sub> +  k<sub>diff</sub>.
+k<sub>vib</sub> = k<sub>pr</sub> +  k<sub>diff</sub>. The propagating contribution 
+k<sub>pr</sub> is due to phonon-like vibrational modes with long 
+<a href="http://en.wikipedia.org/wiki/Mean_free_path">mean free paths (MFPs)</a>; 
+energy is transported over long distances before scattering. The motivation for this study 
+is 
+<a href="http://www.nature.com/ncomms/journal/v4/n3/full/ncomms2630.html">
+recent experimental measurements by Regner at al.</a> of the thermal conductivity as 
+a function of the vibrational mean free paths. 
 
 <p>
 <img src="a288_init216.png" 
@@ -53,8 +60,9 @@ style="width: 520px; height: 320px;" alt="the image" />
 
 Because there is no equivalent 
 <a href="projects-phd-vc.html">virtual crystal (VC)</a> for an amorphous solid, we studied 
-large disordered supercells of a-Si and a-SiO<sub>2</sub> (above Figure). To determine the 
-propagating contribution k<sub>pr</sub>, we studied large supercells of a-SiO2:
+disordered supercells of a-Si and a-SiO<sub>2</sub> (above Figure). 
+Because the propagating modes have long MFPs, large model structures are necessary to 
+perform the thermal analysis. We studied large models of a-SiO2:
 
 <p>
 <img src="sio2_4608.png" 
@@ -72,9 +80,9 @@ style="width: 200px; height: 200px;" alt="the image" />
 style="width: 400px; height: 400px;" alt="the image" />
 </p>
 
-including the largest model of a-Si that we are aware of (10<sup>5 atoms, right Figure). 
+including the largest model of a-Si that we are aware of (10<sup>5</sup> atoms, right Figure). 
 Thanks to 
-<a href="http://www.pmc.umontreal.ca/~mousseau/site_an/">Normand Mousseau</a> for prodiving 
+<a href="http://www.pmc.umontreal.ca/~mousseau/site_an/">Normand Mousseau</a> for providing 
 these a-Si structures. 
 
 <p>
@@ -90,15 +98,13 @@ simulations.
 style="width: 420px; height: 420px;" alt="the image" />
 </p>
 
-Using MD simulations and Green-Kubo method for predicting thermal conductivity 
+Using MD simulations and the Green-Kubo (GK) method for predicting thermal conductivity 
 (k<sub>GK</sub>), we compare with LD calculations that predict the total vibrational conductivity 
-(k<sub>vib</sub>) (above Figure) for varying supercell sizes L. The results show clearly that 
+(k<sub>vib</sub>, above Figure) for varying supercell sizes L. The results show clearly that 
 the propagating contribution k<sub>pr</sub> is significant for a-Si but not a-SiO<sub>2</sub>. 
-These results help to explain recent 
+These results help to explain the 
 <a href="http://www.nature.com/ncomms/journal/v4/n3/full/ncomms2630.html">
-broadband frequency domain thermal reflectance measurements 
-by Regner at al.</a> 
-
+recent experimental measurements by Regner at al.</a> 
 
       </section>
     </div>

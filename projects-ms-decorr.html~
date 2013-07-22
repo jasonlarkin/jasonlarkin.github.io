@@ -51,6 +51,15 @@ and
 
 we studied the effect of spatial and temporal correlation of the flow field on the 
 resulting particle concentration field.  
+
+Turbulence is especially difficult to understand because
+the velocity fluctuations, which lie at its heart, are chaotic in
+both space and time. In an effort to capture the essence of turbulence, 
+<a href="http://en.wikipedia.org/wiki/Robert_Kraichnan">Kraichnan</a>  
+proposed that the turbulent velocity fluctuations are more easily understood by assuming that the 
+temporal fluctuations are delta correlated, as in
+<a href="http://en.wikipedia.org/wiki/Brownian_motion">Brownian motion</a>. 
+
 </p>
 
 <p>
@@ -58,7 +67,7 @@ resulting particle concentration field.
 style="width: 400px; height: 600px;" alt="the image" />
 </p>
 
-In Figure (a, correlated) above, the trajectories of the particles are generated using the  velocity fields in the order they were taken experimentally. In Figure (b, decorrealted), the velocity sequence is randomly shuffled in time to generate new trajectories. This analysis
+In Figure (a, correlated) above, the trajectories of the floating particles are generated using the  velocity fields in the order they were taken experimentally. In Figure (b, decorrelated), the velocity sequence is randomly shuffled in time to generate new trajectories. This analysis
 mimics the 
 <a href="http://en.wikipedia.org/wiki/Robert_Kraichnan">Kraichnan</a> ensemble and yields properties of a velocity 
 <a href="http://en.wikipedia.org/wiki/Correlation_function">correlation function</a>  that is 
@@ -72,34 +81,17 @@ style="width: 400px; height: 400px;" alt="the image" />
 
 Certain aspects of the particle motion and topology
 are retained in the temporally decorrelated field.
-The topology of the decorrelated floaters is stringlike, just
+The topology of the decorrelated floaters is string-like, just
 as in the correlated case.
 The 
-<a href="http://mathworld.wolfram.com/InformationDimension.html">fractal information dimension D1</a> remains close to unity, at least
+<a href="http://mathworld.wolfram.com/InformationDimension.html">fractal information dimension D<sub>1</sub></a> remains close to unity, at least
 at small spatial scales where this parameter is defined. On 
 large scales, temporal decorrelation truncates the length of 
-the stringlike structures, as seen in the above Figure (b). 
-The present measurements show that D1 is measurably altered by 
+the string-like structures, as seen in the above Figure (b). 
+The present measurements show that D<sub>1</sub> is measurably altered by 
 the temporal randomization, but at small scales the particle 
 distribution retains its string-like character. 
-
-<p>
-Turbulence is especially difficult to understand because
-the velocity fluctuations, which lie at its heart, are chaotic in
-both space and time, with very many degrees of freedom
-being excited. The phenomenon is especially intractable
-when viewed in the 
-<a href="http://en.wikipedia.org/wiki/Lagrangian_and_Eulerian_specification_of_the_flow_field">Eulerian frame</a>, 
-where the small-scale
-velocity fluctuations are contained in and moved about by  
-eddies of larger size.
-In an effort to capture the essence of turbulence Kraichnan 
-proposed that the problem is more easily understood in the 
-<a href="http://en.wikipedia.org/wiki/Lagrangian_and_Eulerian_specification_of_the_flow_field">Lagrangian frame</a>, where large-scale eddy effects are absent. 
-To effect further simplification, Kraichnan proposed that the temporal 
-velocity fluctuations be approximated as delta correalted, as in
-<a href="http://en.wikipedia.org/wiki/Brownian_motion">Brownian motion</a>. 
-The measurements reported here suggest that our understanding of 
+The measurements reported here demonstrate that our understanding of 
 turbulence can be enhanced by comparing and contrasting correlated 
 and temporally decorrelated flows.
 

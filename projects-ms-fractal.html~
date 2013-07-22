@@ -48,9 +48,8 @@ of floating particles at the surface of a
 <a href="http://en.wikipedia.org/wiki/Turbulence">turbulent fluid</a>.
 If neutrally bouyant, non-inertial particles are introduced
 into a turbulent flow, they quickly distribute themselves
-throughout the volume of the fluid; further stirring leaves
-the particle density distribution uniform. The bouyant par-
-ticles used in this experiment have a density much less than
+throughout the volume of the fluid. Further mixing due to the turbulent flow leaves
+the particle density distribution uniform. The bouyant particles used in this experiment have a density much less than
 that of the fluid on which they move. Hence their behavior is 
 entirely different. Now, their motion is confined to
 the surface of the turbulent fluid. 
@@ -199,7 +198,7 @@ sense the floaters form a strongly compressible system.
 </object>
 </p>
 
-If the spatial distribution is initially uniform at t = 0, continuous stirring
+If the spatial particle distribution is initially uniform at t = 0, continuous motion 
 of the underlying fluid evolves this spatial distribution into
 string-like structures. Ultimately a steady state is reached,
 at which time the floaters occupy a 
@@ -209,14 +208,6 @@ effect. It occurs even if the interactions between the floaters
 is negligibly small. A common manifestation of this phenomenon is the coagulation 
 of scum on the surface of the sea, as is often seen in an ocean harbor.
 
-<p>
-Range of values of the fractal dimension D<sub>q</sub> are measured for various times
-in the experiment. These results indicate a 
-<a href="http://en.wikipedia.org/wiki/Multifractal_system">multi-fractal</a> 
-distribution of the particles for the inertial range of the flow after the particles 
-evolve from a homogeneous one at t = 0 s.
-</p>
-
 
 <p>
 <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/fractal_fig4.png" 
@@ -224,20 +215,31 @@ style="width: 400px; height: 300px;" alt="the image" />
 </p>
 
 <p>
-A compressible system of particles in free-surface turbulence 
-represents an instance of a 
-<a href="http://en.wikipedia.org/wiki/Attractor">chaotic attractor</a> 
-in real space. The system evolves in a time of the order of the
+A range of values of the fractal dimensions D<sub>q</sub> are measured for various times
+in the experiment. These results indicate a 
+<a href="http://en.wikipedia.org/wiki/Multifractal_system">multi-fractal</a> 
+distribution of the particles for the inertial range of the flow after the particles 
+evolve from a homogeneous one at t = 0 s. The system evolves in a time of the order of the
 lifetime of the 
-<a href="http://en.wikipedia.org/wiki/Large_eddy_simulation">largest eddies</a>, 
+<a href="http://en.wikipedia.org/wiki/Eddy_(fluid_dynamics)">largest eddies</a> of the 
+turbulent flow  
 to a steady state where the
 measured D<sub>q</sub>(t) approach a value that is slightly greater
-than 1, implying the formation of string-like structures. The
+than 1, implying the formation of the string-like structures. The
 correlation dimension D<sub>2</sub>(t) evolves exponentially as the
-steady state is approached. It is not possible, so far, to deduce 
+steady state is approached. 
+</p>
+
+<p>
+It is not possible, so far, to deduce 
 these observations from the 
 <a href="http://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations">Navier-Stokes equations</a>
-in the inertial range of the compressible flow studied here.
+for the compressible flow studied here. A compressible system of particles in free-surface turbulence 
+represents an instance of a 
+<a href="http://en.wikipedia.org/wiki/Attractor">chaotic attractor</a> 
+in real space. The analysis performed in this work uses the tools developed for 
+<a href="http://en.wikipedia.org/wiki/Chaos_theory">chaotic and 
+dynamical systems</a> to study this complex coagulation phenomenon. 
 </p>
 
       </section>
