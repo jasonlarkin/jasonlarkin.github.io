@@ -46,10 +46,10 @@ In this experiment we study the transient evolution of a
 fractal topology in a laboratory setting, namely, the clustering 
 of floating particles at the surface of a 
 <a href="http://en.wikipedia.org/wiki/Turbulence">turbulent fluid</a>.
-If neutrally bouyant, non-inertial particles are introduced
+If neutrally buoyant, non-inertial particles are introduced
 into a turbulent flow, they quickly distribute themselves
 throughout the volume of the fluid. Further mixing due to the turbulent flow leaves
-the particle density distribution uniform. The bouyant particles used in this experiment have a density much less than
+the particle density distribution uniform. The buoyant particles used in this experiment have a density much less than
 that of the fluid on which they move. Hence their behavior is 
 entirely different. Now, their motion is confined to
 the surface of the turbulent fluid. 
@@ -252,6 +252,16 @@ dynamical systems</a> to study this complex coagulation phenomenon.
       </footer>
     </div>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script>
     
 
   </body>

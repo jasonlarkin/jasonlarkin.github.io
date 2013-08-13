@@ -82,7 +82,7 @@ style="width: 400px; height: 400px;" alt="the image" />
 </p>
 
 for structures with 10<sup>3</sup> (left Figures above) to 10<sup>6</sup> atoms (right Figures above). 
-These structure sizes allow us to perform the thermal conductivity analysis using 
+The thermal conductivity analysis using 
 <a href="http://en.wikipedia.org/wiki/Lattice_model_(physics)">lattice dynamics (LD)</a> 
 calculations and 
 <a href="http://en.wikipedia.org/wiki/Molecular_dynamics">molecular dynamics (MD)</a> 
@@ -117,7 +117,16 @@ frequency dominated and full-spectrum materials.
       </footer>
     </div>
 
-    
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script>   
 
   </body>
 </html>

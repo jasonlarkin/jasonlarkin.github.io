@@ -68,7 +68,7 @@ data made the cover of Journal of Fluids October 2011:
 </p>
 <p>
 <img src="https://raw.github.com/jasonlarkin/pitt-doc/master/jap_cover.png"
-style="width: 200px; height: 300px;" alt="the image" />
+style="width: 300px; height: 450px;" alt="the image" />
 </p>
 
       </section>
@@ -81,7 +81,16 @@ style="width: 200px; height: 300px;" alt="the image" />
       </footer>
     </div>
 
-    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script>
 
   </body>
 </html>
