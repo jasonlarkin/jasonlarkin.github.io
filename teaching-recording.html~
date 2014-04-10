@@ -4,11 +4,11 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="jasonlarkin.github.io : " />
+    <meta name="description" content="Lintel Studio : " />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>jasonlarkin.github.io</title>
+    <title>Lintel Studio</title>
   </head>
 
   <body>
@@ -16,7 +16,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
+
 
           <h1 id="project_title">jasonlarkin.github.io</h1>
           <h2 id="project_tagline"></h2>
@@ -53,10 +53,10 @@ My recording style relies heavily on digital technology.
 Recording tools such as  
 <a href="https://www.youtube.com/watch?v=ZHQiXUsHW5w">
 Varispeed,</a>
-<a id="forkme_banner" href="https://www.youtube.com/watch?v=PwwG1m1LK8E">
+<a href="https://www.youtube.com/watch?v=PwwG1m1LK8E">
 Flex Time,</a>
 and 
-<a id="forkme_banner" href="https://www.youtube.com/watch?v=gSEWEpHUh3w">
+<a href="https://www.youtube.com/watch?v=gSEWEpHUh3w">
 Flex Pitch</a>
 offer MIDI-like total control of traditional instruments. Total control 
 of the performance fascillitates creative composition and experimentation, 
