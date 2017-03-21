@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jasonlarkin.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>jasonlarkin.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
+
+          <h1 id="project_title"><a href="index.html">jasonlarkin.github.io</a></h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3><a href="projects-ms.html">Jason Larkin's MS Projects</a></h3>
+
+<h4>
+<a href="http://pre.aps.org/abstract/PRE/v82/i1/e016301">
+Decorrelating a Compressible Turbulent Flow: an Experiment</a></h4>
+
+<p>
+<img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig1.png" 
+style="width: 320px; height: 320px;" alt="the image" />
+<img src="https://raw.github.com/jasonlarkin/pitt-doc/master/thesis_fig4.png" 
+style="width: 260px; height: 320px;" alt="the image" />
+</p>
+
+Building on the experiments performed for the project:
+
+<a href="projects-ms-fractal.html">Time-Evolution of a Fractal Distribution: 
+Particle Concentrations in Free-Surface Turbulence</a>
+
+and
+
+<a href="projects-ms-stats.html">Power-law distributions of particle concentration in free-surface flows</a>,
+
+we studied the effect of spatial and temporal correlation of the flow field on the 
+resulting particle concentration field.  
+
+Turbulence is especially difficult to understand because
+the velocity fluctuations, which lie at its heart, are chaotic in
+both space and time. In an effort to capture the essence of turbulence, 
+<a href="http://en.wikipedia.org/wiki/Robert_Kraichnan">Kraichnan</a>  
+proposed that the turbulent velocity fluctuations are more easily understood by assuming that the 
+temporal fluctuations are delta correlated, as in
+<a href="http://en.wikipedia.org/wiki/Brownian_motion">Brownian motion</a>. 
+
+</p>
+
+<p>
+<img src="https://raw.github.com/jasonlarkin/pitt-doc/master/decorr.png" 
+style="width: 400px; height: 600px;" alt="the image" />
+</p>
+
+In Figure (a, correlated) above, the trajectories of the floating particles are generated using the  velocity fields in the order they were taken experimentally. In Figure (b, decorrelated), the velocity sequence is randomly shuffled in time to generate new trajectories. This analysis
+mimics the 
+<a href="http://en.wikipedia.org/wiki/Robert_Kraichnan">Kraichnan</a> ensemble and yields properties of a velocity 
+<a href="http://en.wikipedia.org/wiki/Correlation_function">correlation function</a>  that is 
+<a href="http://en.wikipedia.org/wiki/White_noise">delta correlated</a> 
+in time but not in space.
+
+<p>
+<img src="https://raw.github.com/jasonlarkin/pitt-doc/master/decorr_fig3.png" 
+style="width: 400px; height: 400px;" alt="the image" />
+</p>
+
+Certain aspects of the particle motion and topology
+are retained in the temporally decorrelated field.
+The topology of the decorrelated floaters is string-like, just
+as in the correlated case.
+The 
+<a href="http://mathworld.wolfram.com/InformationDimension.html">fractal information dimension D<sub>1</sub></a> remains close to unity, at least
+at small spatial scales where this parameter is defined. On 
+large scales, temporal decorrelation truncates the length of 
+the string-like structures, as seen in the above Figure (b). 
+The present measurements show that D<sub>1</sub> is measurably altered by 
+the temporal randomization, but at small scales the particle 
+distribution retains its string-like character. 
+The measurements reported here demonstrate that our understanding of 
+turbulence can be enhanced by comparing and contrasting correlated 
+and temporally decorrelated flows.
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>

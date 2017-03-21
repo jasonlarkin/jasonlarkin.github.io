@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jasonlarkin.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>jasonlarkin.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
+
+          <h1 id="project_title"><a href="index.html">jasonlarkin.github.io</a></h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3><a href="projects-phd.html">Jason Larkin's PhD Projects</a></h3>
+
+<h4>
+Vibrational Mean Free Paths and Thermal Conductivity
+Accumulation Functions for Amorphous Materials (in progress)</h4>
+
+Building on the work and analysis in the project:  
+<a href="projects-phd-vc.html">Predicting Alloy Vibrational Mode Properties using Lattice Dynamics Calculations,
+Molecular Dynamics Simulations, and the Virtual Crystal Approximation</a>, we studied the 
+thermal conductivity of amorphous 
+<a href="https://en.wikipedia.org/wiki/Silicon">silicon (a-Si)</a> and 
+<a href="http://en.wikipedia.org/wiki/Silicon_dioxide">silica (a-SiO<sub>2</sub>)</a>  
+by quantifying the contributions from propagating (
+<a href="https://en.wikipedia.org/wiki/Phonon">phonon</a>-like, k<sub>pr</sub>) and 
+non-propagating 
+<a href="http://en.wikipedia.org/wiki/Diffuson">(diffuson</a>, k<sub>diff</sub>) vibrational modes 
+to predict the total vibrational thermal conductivity, 
+k<sub>vib</sub> = k<sub>pr</sub> +  k<sub>diff</sub>. The propagating contribution 
+k<sub>pr</sub> is due to phonon-like vibrational modes with long 
+<a href="http://en.wikipedia.org/wiki/Mean_free_path">mean free paths (MFPs)</a>; 
+energy is transported over long distances before scattering. The motivation for this study 
+is 
+<a href="http://www.nature.com/ncomms/journal/v4/n3/full/ncomms2630.html">
+recent experimental measurements by Regner at al.</a> of the thermal conductivity as 
+a function of the vibrational mean free paths. 
+
+<p>
+<img src="a288_init216.png" 
+style="width: 520px; height: 320px;" alt="the image" />
+</p>
+
+Because there is no equivalent 
+<a href="projects-phd-vc.html">virtual crystal (VC)</a> for an amorphous solid, we studied 
+disordered supercells of a-Si and a-SiO<sub>2</sub> (above Figure). 
+Because the propagating modes have long MFPs, large model structures are necessary to 
+perform the thermal analysis. We studied large models of a-SiO2:
+
+<p>
+<img src="sio2_4608.png" 
+style="width: 200px; height: 200px;" alt="the image" />
+<img src="sio2_40k.png" 
+style="width: 400px; height: 400px;" alt="the image" />
+</p>
+
+and a-Si:
+
+<p>
+<img src="4096.png" 
+style="width: 200px; height: 200px;" alt="the image" />
+<img src="100k.png" 
+style="width: 400px; height: 400px;" alt="the image" />
+</p>
+
+including the largest model of a-Si that we are aware of (10<sup>5</sup> atoms, right Figure). 
+Thanks to 
+<a href="http://www.pmc.umontreal.ca/~mousseau/site_an/">Normand Mousseau</a> for providing 
+these a-Si structures. 
+
+<p>
+Using these model structures of a-SiO<sub>2</sub> and a-Si, we perform the thermal conductivity analysis using 
+<a href="http://en.wikipedia.org/wiki/Lattice_model_(physics)">lattice dynamics (LD)</a> 
+calculations and 
+<a href="http://en.wikipedia.org/wiki/Molecular_dynamics">molecular dynamics (MD)</a> 
+simulations. 
+</p>
+
+<p>
+<img src="mfp_fig6.png" 
+style="width: 420px; height: 420px;" alt="the image" />
+</p>
+
+Using MD simulations and the Green-Kubo (GK) method for predicting thermal conductivity 
+(k<sub>GK</sub>), we compare with LD calculations that predict the total vibrational conductivity 
+(k<sub>vib</sub>, above Figure) for varying supercell sizes L. The results show clearly that 
+the propagating contribution k<sub>pr</sub> is significant for a-Si but not a-SiO<sub>2</sub>. 
+These results help to explain the 
+<a href="http://www.nature.com/ncomms/journal/v4/n3/full/ncomms2630.html">
+recent experimental measurements by Regner at al.</a> 
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script> 
+
+  </body>
+</html>

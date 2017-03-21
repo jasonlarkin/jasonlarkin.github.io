@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="jasonlarkin.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>jasonlarkin.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jasonlarkin">View on GitHub</a>
+
+          <h1 id="project_title"><a href="index.html">jasonlarkin.github.io</a></h1>
+          <h2 id="project_tagline"></h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Publications</h3>
+
+<h5>PhD: Nanoscale Thermal Transport</h5>
+<p>
+J.M. Larkin, A.J.H. McGaughey, 
+<a href="projects-phd-pcbm.html">“Origin of the Exceptionally Low Thermal Conductivity of Fullerene Derivative PCBM Films”,</a> Physical Review B (in progress).
+</p>
+
+<p>
+K.D. Parrish, A. Jain, J.M. Larkin, W.A. Saidi, A.J.H. McGaughey, “Origin of Thermal Conductivity Changes in Strained Systems”, Physical Review B (submitted).
+</p>
+
+<p>
+J.M. Larkin, A.J.H. McGaughey, 
+<a href="http://ntpl.me.cmu.edu/pubs/larkin_prb14_amorphous.pdf">“Thermal Conductivity Accumulation in Amorphous Materials”,</a> Physical Review B 89 (2014) 144303.
+</p>
+
+<p>
+S.C. Huberman, J.M. Larkin, A.J.H. McGaughey, 
+<a href="https://github.com/jasonlarkin/disorder/raw/master/prb_sh_2013.pdf">
+“Disruption of Superlattice Phonons by Interfacial Mixing”,</a>  Physical Review B 88 (2013) 155311..
+</p>
+
+<p>
+A.J.H. McGaughey and J.M. Larkin, <a href="http://ntpl.me.cmu.edu/pubs/arht_mcgaughey_withfigures.pdf">“Predicting Phonon Properties from Equilibrium Molecular Dynamics Simulations”,</a>
+Advances in Heat Transfer Volume 17 (Academic Press, 2013).
+</p>
+
+<p>
+J.M. Larkin, A.J.H. McGaughey, <a href="http://ntpl.me.cmu.edu/pubs/larkin_jap13_alloy.pdf">“Predicting Alloy Vibrational Mode Properties using Lattice Dynamics Calculations,
+Molecular Dynamics Simulations, and the Virtual Crystal Approximation”,</a> <a href="http://jap.aip.org/resource/1/japiau/v114/i2/p023507_s1">Journal of Applied Physics 114 (2013) 
+023507.</a>
+</p>
+
+<p>
+J. M. Larkin, A.D. Massicotte, J.E. Turney, C.H. Amon, A.J.H. McGaughey, <a href="http://ntpl.me.cmu.edu/pubs/larkin_jctn13.pdf">“Comparison and Evaluation of Spectral Energy
+Methods for Predicting Phonon Properties”,</a> Journal of Computational and Theoretical Nanoscience 11 (2014) 257-264.
+</p>
+
+<h5>MS: Tuburlence and Nonlinear Systems</h5>
+
+<p>
+S. Stefanus, J. Larkin, W. Goldburg, <a href="http://arxiv.org/abs/1106.2147">“A Search for Conformal Invariance in Compressible Two Dimensional Turbulence”,</a>
+<a href="http://pof.aip.org/resource/1/phfle6/v23/i10/p105101_s1">Physics of Fluids 23 105101 (2011)</a> (appeared on <a href="https://raw.github.com/jasonlarkin/pitt-doc/master/jap_cover.png">cover</a>).
+</p>
+
+<p>
+J. Larkin, W. Goldburg, M.M. Bandi, <a href="http://arxiv.org/abs/1010.5463">“Time-Evolution of a Fractal Distribution: Particle Concentrations in Free-Surface Turbulence”,</a> <a href="http://www.sciencedirect.com/science/article/pii/S0167278909003492">Physica D 239 14 (2010) 1264-1268.</a>
+</p>
+
+<p>
+J. Larkin, W. Goldburg, <a href="http://arxiv.org/abs/1009.5311">“Decorrelating a Compressible Turbulent Flow: an Experiment”,</a> <a href="http://pre.aps.org/abstract/PRE/v82/i1/e016301">Physical Review E 82, 016301 (2010).</a>
+</p>
+
+<p>
+J. Larkin, M.M. Bandi, A. Pumir, W. Goldburg, <a href="http://arxiv.org/abs/0911.1784">“Power-law distributions of particle concentration in free-surface flows”,</a>
+<a href="http://pre.aps.org/abstract/PRE/v80/i6/e066301">Physical Review E 80, 066301 (2009).</a>
+</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43128470-1', 'jasonlarkin.github.io');
+  ga('send', 'pageview');
+
+</script>  
+
+  </body>
+</html>
